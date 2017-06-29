@@ -1,0 +1,209 @@
+html,
+body {
+    font-family: Roboto, sans-serif;
+    height: 100%;
+}
+
+.transition {
+    transition: all .2s ease-in-out;
+}
+
+.yellow.color {
+    color: #FFDD00;
+}
+
+.yellow.background {
+    background-color: #FFDD00;
+}
+
+.container {
+    max-width: 2560px;
+}
+
+.hero-intro {
+    padding-top: 30px;
+    background-color: rgb(230, 230, 230);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .3), 0 -2px 3px rgba(0, 0, 0, .3);
+    padding: 5px 15%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.header .title {
+    font-size: 18px;
+}
+
+.header .title-definition {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.info {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.info .title {
+    font-weight:bold;
+}
+
+.info .description {
+
+}
+
+.info .description-meta {
+    font-size: 16px;
+}
+
+.info .buttons {
+    margin-top: 20px;
+    text-shadow: none;
+}
+
+.button {
+    cursor: pointer;
+    width: 200px;
+    border-radius: 3px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.button.yellow {
+    border: none;
+    color: rgb(30, 30, 30);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+    margin-right: 20px;
+}
+
+.link-to-form {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: url('../images/double-arrow.png') 53% 50% no-repeat rgba(240, 240, 240, .7);
+    border: 3px solid rgba(256, 256, 256, .2);
+}
+
+.hero-advantages {
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.hero-advantages .title {
+    font-weight: bold;
+}
+
+.advantages-container {
+    width: 60%;
+}
+
+.advantages-container.second-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.advantage {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .2);
+    min-height: 240px;
+    padding: 15px 0 15px 0;
+}
+
+.image-container {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+}
+
+.image-container .advantage-photo {
+    width: 100%;
+    display:none;
+}
+
+.advantage-info {
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    height: 25%;
+    width: 100%;
+}
+
+.advantage-info .title {
+    font-weight: bold;
+}
+
+.advantage .advantage-icon {
+    width: 60%;
+}
+
+.advantage-info .description {
+
+}
+
+.advantage:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+
+.advantage:hover > .advantage-info {
+    background-color: #FFDD00;
+    color: rgb(30, 30, 30);
+}
+
+.advantage:hover > .image-container .advantage-icon {
+    display: none;
+}
+
+.advantage:hover > .image-container .advantage-photo {
+    display: block;
+}
+
+.advantage.first {
+}
+
+.advantage.first {
+
+}
+
+.advantage.first {
+
+}
+
+.advantage.first {
+
+}
+
+.advantage.first {
+
+}
+
+.advantage.first {
+
+}
