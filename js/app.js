@@ -4,12 +4,21 @@ $(document).ready(function() {
         advantagesContainer = $('.hero-advantages'),
         heroIntro = $('.hero-intro'),
         enrollBtn = $('.enroll'),
-        windowRef = $(window);
+        windowRef = $(window),
+        formSend = $('.form-send'),
+        formSubmit = $('.form-submit');
     linkToForm.click(function() {
         windowRef.scrollTo(advantagesContainer, 400);
     });
 
     enrollBtn.click(function() {
         windowRef.scrollTo(mailContainer, 500);
+    });
+
+    formSubmit.click(function() {
+        $.post('mail.php', formSend.serialize())
+            .done(function(data) {
+                console.log(data);
+            });
     });
 });
