@@ -15,7 +15,7 @@
 
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -33,6 +33,7 @@
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container hero-intro">
+    <div class="fader"></div>
     <div class="row">
         <div class="header u-full-width">
             <span class="title">IQ-Центр</span> <br>
@@ -46,12 +47,12 @@
                 Эффективные методики обучения и подготовки к ЦТ, преподаватели высшей категории, занятия в мини-группах, бесплатное пробное занятие - в IQ-центре все работает на ВАШ результат!
             </span>
             <div class="buttons">
-                <div class="button yellow background enroll">ЗАПИСЬ НА ОБУЧЕНИЕ</div>
-                <div class="button trial">ПРОБНОЕ ЗАНЯТИЕ</div>
+                <div class="button yellow background enroll transition">ЗАПИСЬ НА ОБУЧЕНИЕ</div>
+                <div class="button trial transition">ПРОБНОЕ ЗАНЯТИЕ</div>
             </div>
         </div>
     </div>
-    <div class="link-to-form"></div>
+    <div class="link-to-form transition"></div>
 </div>
 <div class="container hero-advantages">
     <h3 class="title">ПРЕИМУЩЕСТВА НАШЕГО ЦЕНТРА</h3>
@@ -60,8 +61,8 @@
             <div class="container advantages-container">
                 <div class="one-third column advantage first transition">
                     <div class="image-container">
-                        <img src="images/advantages/1.png" class="advantage-icon">
-                        <img src="images/advantages/photos/1.jpg" class="advantage-photo">
+                        <img src="images/advantages/1.png" class="advantage-icon transition">
+                        <img src="images/advantages/photos/1.jpg" class="advantage-photo transition">
                     </div>
                     <div class="advantage-info transition">
                         <span class="title">Высококвалифицированные педагоги</span>
@@ -70,8 +71,8 @@
                 </div>
                 <div class="one-third column advantage second transition">
                     <div class="image-container">
-                        <img src="images/advantages/2.png" class="advantage-icon">
-                        <img src="images/advantages/photos/2.jpg" class="advantage-photo">
+                        <img src="images/advantages/2.png" class="advantage-icon transition">
+                        <img src="images/advantages/photos/2.jpg" class="advantage-photo transition">
                     </div>
                     <div class="advantage-info transition">
                         <span class="title">Невысокая стоимость</span>
@@ -80,8 +81,8 @@
                 </div>
                 <div class="one-third column advantage third transition">
                     <div class="image-container">
-                        <img src="images/advantages/3.png" class="advantage-icon">
-                        <img src="images/advantages/photos/3.jpg" class="advantage-photo">
+                        <img src="images/advantages/3.png" class="advantage-icon transition">
+                        <img src="images/advantages/photos/3.jpg" class="advantage-photo transition">
                     </div>
                     <div class="advantage-info transition">
                         <span class="title">Мини-группы</span>
@@ -92,8 +93,8 @@
             <div class="container advantages-container second-line">
                 <div class="one-third column advantage fourth transition">
                     <div class="image-container">
-                        <img src="images/advantages/4.png" class="advantage-icon">
-                        <img src="images/advantages/photos/4.jpg" class="advantage-photo">
+                        <img src="images/advantages/4.png" class="advantage-icon transition">
+                        <img src="images/advantages/photos/4.jpg" class="advantage-photo transition">
                     </div>
                     <div class="advantage-info transition">
                         <span class="title">Удобное расписание</span>
@@ -102,8 +103,8 @@
                 </div>
                 <div class="one-third column advantage fifth transition">
                     <div class="image-container">
-                        <img src="images/advantages/5.png" class="advantage-icon">
-                        <img src="images/advantages/photos/5.jpg" class="advantage-photo">
+                        <img src="images/advantages/5.png" class="advantage-icon transition">
+                        <img src="images/advantages/photos/5.jpg" class="advantage-photo transition">
                     </div>
                     <div class="advantage-info transition">
                         <span class="title">Пробный урок</span>
@@ -112,8 +113,8 @@
                 </div>
                 <div class="one-third column advantage sixth transition">
                     <div class="image-container">
-                        <img src="images/advantages/6.png" class="advantage-icon">
-                        <img src="images/advantages/photos/6.jpg" class="advantage-photo">
+                        <img src="images/advantages/6.png" class="advantage-icon transition">
+                        <img src="images/advantages/photos/6.jpg" class="advantage-photo transition">
                     </div>
                     <div class="advantage-info transition">
                         <span class="title">Удобство и комфорт</span>
@@ -125,22 +126,107 @@
     </div>
 </div>
 <div class="container hero-mail">
+    <h4>ХОТИТЕ ЗАПИСАТЬСЯ НА ОБУЧЕНИЕ ИЛИ ОСТАЛИСЬ НЕРЕШЁННЫЕ ВОПРОСЫ?</h4>
+    <span>Оставьте заявку и мы с Вами свяжемся в течение суток!</span>
     <div class="row">
-        <div class="one-half column">
-            Пиши на почту
+        <form action="mail.php" class="form-send eight columns offset-by-two">
+            <div class="one-half column">
+                <input placeholder="ИМЯ" type="text" name="name" class="text-field twelve column">
+                <input placeholder="E-MAIL" type="email" name="email" class="text-field twelve column">
+            </div>
+            <div class="one-half column">
+                <input placeholder="ТЕЛЕФОН" type="tel" name="telephone" class="text-field twelve column">
+                <input placeholder="ПОДРОБНОСТИ" type="text" name="details" class="text-field twelve column">
+            </div>
+            <input type="submit" class="form-submit button yellow background u-pull-right" value="ОТПРАВИТЬ ЗАЯВКУ">
+        </form>
+    </div>
+</div>
+<div class="container hero-links">
+    <div class="row">
+        <div class="two columns offset-by-one">
+            <ul class="links">
+                <li class="title">О НАС</li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Наши педагоги</a></li>
+                <li><a href="#">Фотогалерея</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Вакансии</a></li>
+            </ul>
+        </div>
+        <div class="two columns">
+            <ul class="links">
+                <li class="title">УСЛУГИ</li>
+                <li><a href="#">Подготовка к ЦТ</a></li>
+                <li><a href="#">Школьный курс</a></li>
+                <li><a href="#">Подготовка к гимназии</a></li>
+                <li><a href="#">Подготовка к школе</a></li>
+            </ul>
+        </div>
+        <div class="two columns">
+            <ul class="links">
+                <li class="title">ВЫБОР ПРОФЕССИИ</li>
+                <li><a href="#">Математика</a></li>
+                <li><a href="#">Русский язык</a></li>
+                <li><a href="#">Английский язык</a></li>
+                <li><a href="#">Немецкий язык</a></li>
+                <li><a href="#">География</a></li>
+            </ul>
+        </div>
+        <div class="two columns">
+            <ul class="links">
+                <li class="title">ОПЛАТА</li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Способы</a></li>
+            </ul>
+        </div>
+        <div class="two columns">
+            <ul class="links">
+                <li class="title">КОНТАКТЫ</li>
+                <li><a href="#">(+375 29) 000 00 00</a></li>
+                <li><a href="#">(+375 17) 000 00 00</a></li>
+            </ul>
         </div>
     </div>
 </div>
 <div class="container hero-map">
     <div class="row">
-        <div class="one-half column">
-            Какая-то странная карта
+        <div class="twelve columns">
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
+<div class="container hero-contacts">
+    <div class="row">
+        <div class="one-third column">
+            <div class="contacts-item">
+                <span class="title">ЮРИДИЧЕСКИЙ АДРЕС</span>
+                <div class="description">
+                    Беларусь, Минск. Ул. Мележа 1, офис 412, индекс 440564
+                </div>
+            </div>
+        </div>
+        <div class="one-third column">
+            <div class="contacts-item">
+                <span class="title">ИЩИТЕ НАС В СЕТЯХ</span>
+                <div class="description">
+
+                </div>
+            </div>
+        </div>
+        <div class="one-third column">
+            <div class="contacts-item">
+                <span class="title">IQ-CENTER</span>
+                <div class="description">
+                    Lorem ipsum dolor sit amet, lorem ipsum folor sit amet
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <div class="container hero-footer">
     <div class="row">
-        <div class="one-half column">
+        <div class="six column">
             Футер
         </div>
     </div>
@@ -153,7 +239,21 @@
     </div>
 </div>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script>
+    function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVekoQ82QeXlbP6HwnlL2yqwxAfVkGpvA&callback=initMap">
+</script>
 </body>
 </html>

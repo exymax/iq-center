@@ -1,7 +1,15 @@
 html,
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
+}
+
+.fader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2);
+
 }
 
 .transition {
@@ -22,10 +30,17 @@ body {
 
 .hero-intro {
     padding-top: 30px;
-    background-color: rgb(230, 230, 230);
+    background:url('../images/backgrounds/bg1.jpg') no-repeat rgb(230, 230, 230);
     margin: 0;
     width: 100%;
     height: 100%;
+}
+
+.hero-intro .row {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 .header {
@@ -89,9 +104,20 @@ body {
     margin-right: 20px;
 }
 
+.enroll:hover {
+    background-color: #ccb000;
+}
+
+.trial:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+}
+
 .link-to-form {
     cursor: pointer;
     position: absolute;
+    z-index: 2;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
@@ -114,11 +140,11 @@ body {
 }
 
 .advantages-container {
-    width: 60%;
+    width: 66%;
 }
 
 .advantages-container.second-line {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -131,36 +157,45 @@ body {
     background-color: #fff;
     border-radius: 2px;
     box-shadow: 0 3px 4px rgba(0, 0, 0, .2);
-    min-height: 240px;
+    min-height: 270px;
     padding: 15px 0 15px 0;
 }
 
 .image-container {
     overflow: hidden;
     position: absolute;
+    top: 0;
     width: 100%;
     height: 70%;
 }
 
 .image-container .advantage-photo {
     width: 100%;
-    display:none;
 }
 
 .advantage-info {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
     bottom: 0;
-    padding-top: 10px;
-    height: 25%;
+    height: 27%;
     width: 100%;
 }
 
 .advantage-info .title {
+    padding: 0 5px 0 5px;
     font-weight: bold;
 }
 
 .advantage .advantage-icon {
+    margin-top: 15px;
     width: 60%;
+}
+
+.image-container .advantage-photo {
+    margin-top: 20%;
 }
 
 .advantage-info .description {
@@ -173,16 +208,17 @@ body {
 }
 
 .advantage:hover > .advantage-info {
+    height: 30%;
     background-color: #FFDD00;
     color: rgb(30, 30, 30);
 }
 
 .advantage:hover > .image-container .advantage-icon {
-    display: none;
+    transform: translateY(-150%);
 }
 
 .advantage:hover > .image-container .advantage-photo {
-    display: block;
+    transform: translateY(-100%);
 }
 
 .advantage.first {
@@ -206,4 +242,87 @@ body {
 
 .advantage.first {
 
+}
+
+.hero-mail {
+    text-align: center;
+    padding-top: 30px;
+    min-height: 740px;
+    background: url('../images/backgrounds/banners1.jpg') no-repeat 50% 100%;
+}
+
+.form-send {
+    margin-top: 40px;
+}
+
+.form-send .twelve.column {
+    margin-left: 0;
+}
+
+.form-send .form-submit {
+    margin-right: 0;
+}
+
+.hero-links {
+    width: 100%;
+    min-height: 300px;
+    background-color: rgb(31, 31, 31);
+}
+
+.links {
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+.links .title {
+    color: #FFDD00;
+    text-decoration: underline;
+}
+
+.links a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-map {
+    width: 100%;
+    min-height:250px;
+}
+
+#map {
+    width: 100%;
+    height: 250px;
+}
+
+.hero-contacts {
+    background-color: #fff;
+    height: 170px;
+}
+
+.contacts-item {
+    margin-top: 50px;
+    width: 100%;
+    color: #101010;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-item .title {
+    font-weight: bold;
+}
+
+.hero-footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(31, 31, 31);
+}
+
+.hero-developer {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(31, 31, 31);
+    height: 20px;
 }
