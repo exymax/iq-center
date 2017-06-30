@@ -159,8 +159,9 @@ body {
 
 .hero-advantages {
     width: 100%;
-    background-color: rgb(220, 220, 220);
-    padding: 40px 0 30px 0;
+    background: url('../images/backgrounds/advantages-bg.jpg') no-repeat rgb(220, 220, 220);
+    background-size: 100%;
+    padding: 25px 0 30px 0;
     text-align: center;
 }
 
@@ -173,7 +174,7 @@ body {
 }
 
 .advantages-container.second-line {
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 20px;
 }
 
@@ -245,7 +246,7 @@ body {
 }
 
 .advantage-info .description {
-
+    padding-bottom: 5px;
 }
 
 .advantage:hover {
@@ -311,6 +312,8 @@ body {
 
 .form-send .form-submit {
     margin-right: 0;
+    line-height: 40px;
+    height: 40px;
 }
 
 .hero-links {
