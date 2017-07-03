@@ -50,6 +50,16 @@ body {
     background-color: rgba(0, 0, 0, .5);
 }
 
+.header .header-logo {
+    float: left;
+    width: auto;
+    height: 50px;
+}
+
+.header .header-info {
+    display: inline;
+}
+
 .header .title {
     font-size: 18px;
 }
@@ -60,10 +70,9 @@ body {
 }
 
 .navigation {
+    margin-top: -15px;
     display: inline;
     list-style: none;
-    margin-bottom: 20px;
-    margin-top: -15px;
 }
 
 .navigation > li {
@@ -95,12 +104,27 @@ body {
     text-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 }
 
+.info .info-heading {
+    text-align: left;
+    display: inline;
+}
+
+.info .info-logo {
+    float: left;
+    width: 200px;
+}
+
+.info .info-heading {
+
+}
+
 .info .title {
+    font-size: 45px;
     font-weight:bold;
 }
 
 .info .description {
-
+    font-size: 30px;
 }
 
 .info .description-meta {
