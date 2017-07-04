@@ -1,0 +1,38 @@
+.hero-pricing {
+    padding-top: 30px;
+    width: 100%;
+    height: 900px;
+    background: url('../images/backgrounds/pricing.jpg') no-repeat #fff;
+    background-size: cover;
+}
+
+.hero-pricing .fader {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.hero-pricing .info .title {
+    margin-top: 150px;
+}
+
+.hero-pricing .info .title .small {
+    font-size: 30px;
+}
+
+.hero-pricing .info .title .big {
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+}
+
+.mail-container {
+    margin-top: 150px;
+    padding: 15px 15px 0 15px;
+    border-radius: 2px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+}
+
+.mail-container .title {
+    text-align: center;
+    margin-top: 0 !important;
+}

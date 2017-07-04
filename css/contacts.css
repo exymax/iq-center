@@ -1,0 +1,26 @@
+.hero-contacts {
+    width: 100%;
+    height: 600px;
+    padding-top: 30px;
+    background-color: rgb(235, 235, 235);
+}
+
+.info {
+    margin: 15px 0 15px 0;
+    text-align: center;
+}
+
+.info .contacts-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.feedback-title {
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-send {
+    margin-top: 0 !important;
+}
