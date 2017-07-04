@@ -1,0 +1,60 @@
+.hero-service {
+    padding-top: 30px;
+    width: 100%;
+    height: 1500px;
+    background: url('../images/backgrounds/services.jpg') no-repeat #fff;
+    -webkit-box-shadow: inset 0px -58px 82px 0px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px -58px 82px 0px rgba(255,255,255,1);
+    box-shadow: inset 0px -58px 82px 0px rgba(255,255,255,1);
+}
+
+.hero-service .fader {
+    background-color: rgba(256, 256, 256, .5);
+    -webkit-filter: blur(50px);
+}
+
+.hero-service .info .description {
+    text-align: justify;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+    margin-top: 50px;
+}
+
+.hero-service .info-card {
+    cursor: pointer;
+    padding: 20px;
+    min-height: 180px;
+    margin-top: 30px;
+    background-color: #FFDD00;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}
+
+.hero-service .info-card:hover {
+    box-shadow: 0 4px 7px rgba(0, 0, 0, .2);
+    transform: translateY(-5px);
+}
+
+.hero-service .info-card.imaged {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-service .info-card.imaged .image-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 2px solid #FFDD00;
+}
+
+.hero-service .info-card.imaged span {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hero-service-mail {
+    width: 100%;
+}
