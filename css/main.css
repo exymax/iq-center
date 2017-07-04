@@ -1,33 +1,3 @@
-html,
-body {
-    font-family: 'Roboto', sans-serif;
-    height: 100%;
-}
-
-.fader {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .2);
-
-}
-
-.transition {
-    transition: all .2s ease-in-out;
-}
-
-.yellow.color {
-    color: #FFDD00;
-}
-
-.yellow.background {
-    background-color: #FFDD00;
-}
-
-.container {
-    max-width: 2560px;
-}
-
 .hero-intro {
     padding-top: 30px;
     background:url('../images/backgrounds/bg1.jpg') no-repeat rgb(230, 230, 230);
@@ -36,62 +6,7 @@ body {
     height: 100%;
 }
 
-.hero-intro .row {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-.header {
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .3), 0 -2px 3px rgba(0, 0, 0, .3);
-    padding: 10px 15%;
-    color: #fff;
-    background-color: rgba(0, 0, 0, .5);
-}
-
-.header .header-logo {
-    float: left;
-    width: auto;
-    height: 50px;
-}
-
-.header .header-info {
-    display: inline;
-}
-
-.header .title {
-    font-size: 18px;
-}
-
-.header .title-definition {
-    font-size: 15px;
-    margin-bottom: 0;
-}
-
-.navigation {
-    margin-top: -15px;
-    display: inline;
-    list-style: none;
-}
-
-.navigation > li {
-    font-size: 17px;
-    margin-left: 20px;
-    display: inline;
-}
-
-.navigation > li > a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.navigation > li.active > a {
-    color: #FFDD00;
-    border-bottom: 1px solid #FFDD00;
-}
-
-.info {
+.hero-intro .info {
     position: absolute;
     text-align: center;
     display: flex;
@@ -104,81 +19,44 @@ body {
     text-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 }
 
-.info .info-heading {
+.hero-intro .info .info-heading {
     text-align: left;
     display: inline;
 }
 
-.info .info-logo {
+.hero-intro .info .info-logo {
     float: left;
     width: 200px;
 }
 
-.info .info-heading {
+.hero-intro .info .info-heading {
 
 }
 
-.info .title {
+.hero-intro .info .title {
     font-size: 45px;
     font-weight:bold;
 }
 
-.info .description {
+.hero-intro .info .description {
     font-size: 30px;
 }
 
-.info .description-meta {
+.hero-intro .info .description-meta {
     font-size: 16px;
 }
 
-.info .buttons {
+.hero-intro .info .buttons {
     margin-top: 45px;
     text-shadow: none;
 }
 
-.button {
-    cursor: pointer;
-    min-width: 100px;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 3px;
-    color: #fff;
-    border: 1px solid #fff;
-}
-
-.button.yellow {
-    border: none;
-    color: rgb(30, 30, 30);
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
-    margin-right: 20px;
-}
-
-.enroll, .trial {
-    width: 200px;
-}
-
-.enroll:hover {
-    background-color: #ccb000;
-}
-
-.trial:hover {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid #fff;
-}
-
-.link-to-form {
-    cursor: pointer;
+.hero-intro .link-to-form {
     position: absolute;
     z-index: 2;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 46px;
-    height: 46px;
-    border-radius: 100%;
-    background: url('../images/double-arrow.png') 53% 50% no-repeat rgba(256, 256, 256, .9);
-    border: 3px solid rgba(250, 250, 250, 0);
 }
 
 .hero-advantages {
@@ -294,121 +172,4 @@ body {
 
 .advantage:hover > .white-fader {
     opacity: 0;
-}
-
-.advantage.first {
-}
-
-.advantage.first {
-
-}
-
-.advantage.first {
-
-}
-
-.advantage.first {
-
-}
-
-.advantage.first {
-
-}
-
-.advantage.first {
-
-}
-
-.hero-mail {
-    text-align: center;
-    padding-top: 30px;
-    min-height: 740px;
-    background: url('../images/backgrounds/banners1.jpg') no-repeat 50% 100%;
-}
-
-.form-send {
-    margin-top: 40px;
-}
-
-.form-send .twelve.column {
-    margin-left: 0;
-}
-
-.form-send .form-submit {
-    margin-right: 0;
-    line-height: 40px;
-    height: 40px;
-}
-
-.hero-links {
-    width: 100%;
-    min-height: 300px;
-    background-color: rgb(31, 31, 31);
-}
-
-.links {
-    list-style-type: none;
-    margin-top: 50px;
-}
-
-.links .title {
-    color: #FFDD00;
-    text-decoration: underline;
-}
-
-.links a {
-    font-size: 14px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.hero-map {
-    width: 100%;
-    min-height:250px;
-}
-
-#map {
-    width: 100%;
-    height: 250px;
-}
-
-.hero-contacts {
-    background-color: #fff;
-    height: 170px;
-}
-
-.contacts-item {
-    margin-top: 40px;
-    width: 100%;
-    color: #101010;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contacts-item .title {
-    font-weight: bold;
-}
-
-.social-links {
-    text-align: center;
-}
-
-.hero-footer {
-    padding-top: 18px;
-    color: rgb(210, 210, 210);
-    text-align: center;
-    width: 100%;
-    height: 80px;
-    background-color: rgb(31, 31, 31);
-}
-
-.heart {
-    font-size: 18px;
-    color: red;
-}
-
-.developer > a {
-    color: #1abc9c;
-    text-decoration: none;
 }
