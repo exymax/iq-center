@@ -159,6 +159,22 @@ body {
     background-color: rgb(31, 31, 31);
 }
 
+.links {
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+.links .title {
+    color: #FFDD00;
+    text-decoration: underline;
+}
+
+.links a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
 .hero-map {
     width: 100%;
     min-height:250px;
