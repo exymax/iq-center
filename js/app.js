@@ -21,4 +21,8 @@ $(document).ready(function() {
                 console.log(data);
             });
     });
+
+    $('.tab').tab({
+        trigger_event_type: 'mouseover'
+    });
 });
