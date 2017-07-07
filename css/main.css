@@ -96,7 +96,7 @@
 
 .advantages ul li {
     cursor: pointer;
-    max-width: 300px;
+    max-width: 80%;
     margin-top: 10px;
     text-align: left;
     padding: 10px 0 10px 25px;
@@ -146,7 +146,7 @@
     z-index: 2;
     margin-left: 0 !important;
     background-color: #FFDD00;
-    height: 480px;
+    height: 464px;
 }
 
 .image-container {
