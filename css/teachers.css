@@ -1,0 +1,29 @@
+.hero-teachers {
+    margin: 0;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.teachers {
+    margin-top: 30px;
+}
+
+.teacher {
+    margin-top: 20px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+    min-height: 220px;
+}
+
+.teacher .info {
+    min-height: 220px;
+    color: #202020;
+    background-color: rgb(230, 230, 230);
+    -webkit-clip-path: polygon(0 0, 73% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 73% 0, 100% 100%, 0% 100%);
+}
+
+.teacher .info .name {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}

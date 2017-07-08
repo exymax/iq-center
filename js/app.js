@@ -15,7 +15,8 @@ $(document).ready(function() {
         windowRef.scrollTo(mailContainer, 500);
     });
 
-    formSubmit.click(function() {
+    formSubmit.click(function(e) {
+        e.preventDefault();
         $.post('mail.php', formSend.serialize())
             .done(function(data) {
                 console.log(data);

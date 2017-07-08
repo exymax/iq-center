@@ -100,13 +100,17 @@
 
 .advantages ul li {
     cursor: pointer;
-    max-width: 80%;
-    margin-top: 10px;
-    text-align: left;
+    max-width: 60%;
+    margin-top: 15px;
+    text-align: center;
     padding: 10px 0 10px 25px;
     color: #202020;
     background-color: #fff;
     box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}
+
+.advantages ul li .title {
+    font-size: 18px;
 }
 
 .advantages ul li:hover {
@@ -160,7 +164,7 @@
     position: absolute;
     right: 11.9%;
     top: 0;
-    width: 50%;
+    width: 54%;
     height: 100%;
     -webkit-clip-path: polygon(36% 0, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(36% 0, 100% 0, 100% 100%, 0% 100%);
