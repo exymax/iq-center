@@ -22,7 +22,34 @@ $(document).ready(function() {
                 console.log(data);
             });
     });
+
+    $('.gallery-container').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+    });
+
+    $('.feedback-links').slick({
+        asNavFor: '.feedback-cards',
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        centerMode: true
+    });
+
+    $('.feedback-cards').slick({
+        asNavFor: '.feedback-links',
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true
+    });
+
     $('.tab').tab({
         trigger_event_type: 'mouseover'
     });
+
 });

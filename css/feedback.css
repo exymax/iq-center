@@ -1,0 +1,69 @@
+.hero-feedback {
+    background:url('../images/backgrounds/bg1.jpg') no-repeat rgb(230, 230, 230);
+    width: 100%;
+    height: 600px;
+    padding-top: 30px;
+}
+
+.feedback-title {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    margin-top: 50px;
+}
+
+.feedback-links .slick-slide {
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    margin-left: 15px;
+    font-size: 22px;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 160px !important;
+    height: 160px;
+}
+
+.feedback {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.feedback-stub {
+    z-index: 0;
+}
+
+.feedback-stub .card {
+    width: 180px;
+    height: 80px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}
+
+.feedback-stub .card .upper .left {
+    transform: translate(-150px, -150px);
+}
+
+.feedback-stub .card .upper .right {
+    transform: translate(150px, -150px);
+}
+
+.feedback-stub .card .angled .left {
+    transform: translate(-50px, 50px) rotate(30deg);
+}
+
+.feedback-stub .card .angled .right {
+    transform: translate(50px, 50px) rotate(-30deg);
+}
+
+.feedback-stub .card .lower .left {
+    transform: translate(-150px, 20px);
+}
+
+.feedback-stub .card .lower .right {
+    transform: translate(150px, 20px);
+}
