@@ -48,6 +48,7 @@
                 <div class="card upper right"></div>
                 <div class="card angled right"></div>
                 <div class="card lower right"></div>
+                <div class="card centered"></div>
             </div>
             <div class="feedback-cards">
                 <div>Feedback 1</div>

@@ -27,8 +27,8 @@ if (count($values) === count($whiteList)) {
     $messageBody = wordwrap($values['details'], 70);
     $mail = mail('exymax@gmail.com', $subject, $messageBody);
     if ($mail) {
-       return json_encode(['result' => 'sent']);
+       echo json_encode(['result' => 'sent']);
     }
 } else {
-    return json_encode(['result' => 'error']);
+    echo json_encode(['result' => 'error']);
 }

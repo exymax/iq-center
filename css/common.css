@@ -225,3 +225,14 @@ body {
     color: #1abc9c;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1232px) {
+    .header {
+        padding: 8px 8%;
+    }
+
+    .navigation li {
+        font-size: 15px;
+        margin-left: 7px;
+    }
+}

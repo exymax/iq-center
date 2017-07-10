@@ -6,6 +6,10 @@
     height: 100%;
 }
 
+.hero-intro .fader {
+    background-color: rgba(0, 0, 0, .35);
+}
+
 .hero-intro .info {
     position: absolute;
     text-align: center;
@@ -34,6 +38,10 @@
 }
 
 .hero-intro .info .title {
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 5px;
+    text-shadow: #000 0 0 4px, #000 0 0 4px,   #000 0 0 4px,
+    #000 0 0 4px, #000 0 0 4px, #000 0 0 4px;
     font-size: 45px;
     font-weight:bold;
 }
@@ -100,17 +108,17 @@
 
 .advantages ul li {
     cursor: pointer;
-    max-width: 60%;
+    max-width: 70%;
     margin-top: 15px;
-    text-align: center;
-    padding: 10px 0 10px 25px;
+    text-align: left;
+    padding: 15px 0 15px 15px;
     color: #202020;
     background-color: #fff;
     box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
 }
 
 .advantages ul li .title {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .advantages ul li:hover {
@@ -122,27 +130,27 @@
 }
 
 .advantages ul li.first {
-    transform:  translateX(70%);
-}
-
-.advantages ul li.second {
     transform:  translateX(60%);
 }
 
-.advantages ul li.third {
+.advantages ul li.second {
     transform:  translateX(50%);
 }
 
-.advantages ul li.fourth {
+.advantages ul li.third {
     transform:  translateX(40%);
 }
 
-.advantages ul li.fifth {
+.advantages ul li.fourth {
     transform:  translateX(30%);
 }
 
-.advantages ul li.sixth {
+.advantages ul li.fifth {
     transform:  translateX(20%);
+}
+
+.advantages ul li.sixth {
+    transform:  translateX(10%);
 }
 
 .advantages ul li:first-child {
@@ -175,6 +183,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 20px;
 }
 
 .tabItem .title {

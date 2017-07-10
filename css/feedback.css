@@ -1,7 +1,7 @@
 .hero-feedback {
     background:url('../images/backgrounds/bg1.jpg') no-repeat rgb(230, 230, 230);
     width: 100%;
-    height: 600px;
+    height: 800px;
     padding-top: 30px;
 }
 
@@ -27,43 +27,59 @@
 
 .feedback {
     position: absolute;
+    margin-left: 0 !important;
     left: 50%;
-    bottom: 0;
+    bottom: 100px;
     transform: translateX(-50%);
 }
 
 .feedback-stub {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-180px);
     z-index: 0;
 }
 
 .feedback-stub .card {
-    width: 180px;
-    height: 80px;
+    position: absolute;
+    border: 1px solid rgba(200, 200,200, .5);
+    width: 360px;
+    height: 250px;
     background: #fff;
     border-radius: 2px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .3);
 }
 
-.feedback-stub .card .upper .left {
-    transform: translate(-150px, -150px);
+.feedback-stub .card.upper.left {
+    transform: translate(-400px, -150px);
 }
 
-.feedback-stub .card .upper .right {
-    transform: translate(150px, -150px);
+.feedback-stub .card.upper.right {
+    transform: translate(400px, -150px);
 }
 
-.feedback-stub .card .angled .left {
-    transform: translate(-50px, 50px) rotate(30deg);
+.feedback-stub .card.angled.left {
+    transform: translate(-250px, -70px) rotate(20deg);
 }
 
-.feedback-stub .card .angled .right {
-    transform: translate(50px, 50px) rotate(-30deg);
+.feedback-stub .card.angled.right {
+    transform: translate(250px, -70px) rotate(-20deg);
 }
 
-.feedback-stub .card .lower .left {
-    transform: translate(-150px, 20px);
+.feedback-stub .card.lower.left {
+    transform: translate(-160px, -20px);
 }
 
-.feedback-stub .card .lower .right {
-    transform: translate(150px, 20px);
+.feedback-stub .card.lower.right {
+    transform: translate(160px, -20px);
+}
+
+.feedback-stub .card.centered {
+    width: 390px;
+    height: 290px;
+    transform: translateY(-40px);
+}
+
+.hero-service-mail .mail-container {
+    margin-top: 150px;
 }

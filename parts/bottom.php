@@ -3,7 +3,7 @@
         <div class="two columns offset-by-one">
             <ul class="links">
                 <li class="title">О НАС</li>
-                <li><a href="blog.php">Новости</a></li>
+                <li><a href="blog/">Новости</a></li>
                 <li><a href="teachers.php">Наши педагоги</a></li>
                 <li><a href="gallery.php">Фотогалерея</a></li>
                 <li><a href="feedback.php">Отзывы</a></li>

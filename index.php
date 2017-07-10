@@ -52,33 +52,21 @@
                 <ul>
                     <li class="active first transition">
                         <span class="title">Высококвалифицированные педагоги</span>
-                        <br>
-                        <span class="description">Опыт и результаты!</span>
                     </li>
                     <li class="second transition">
                         <span class="title">Невысокая стоимость</span>
-                        <br>
-                        <span class="description">Антикризисное предложение!</span>
                     </li>
                     <li class="third transition">
                         <span class="title">Мини-группы</span>
-                        <br>
-                        <span class="description">Эффективно и доступно!</span>
                     </li>
                     <li class="fourth transition">
                         <span class="title">Удобное расписание</span>
-                        <br>
-                        <span class="description">Составим вместе с Вами!</span>
                     </li>
                     <li class="fifth transition">
                         <span class="title">Пробный урок</span>
-                        <br>
-                        <span class="description">Убедись во всем сам!</span>
                     </li>
                     <li class="sixth transition">
                         <span class="title">Удобство и комфорт</span>
-                        <br>
-                        <span class="description">Мы ценим каждого нашего ученика!</span>
                     </li>
                 </ul>
             </div>
@@ -86,32 +74,34 @@
                 <div class="tabItem active first">
                     <img src="images/logo.png">
                     <span class="title">Высококвалифицированные педагоги</span>
-                    <p class="description">Опыт и результаты!</p>
+                    <p class="description">Наш опыт – ваши высокие результаты!
+                        Преподаватели «IQ-центр» имеют огромный опыт работы и готовы сделать обучение максимально комфортным и результативным!</p>
                 </div>
                 <div class="tabItem second">
                     <img src="images/logo.png">
                     <span class="title">Невысокая стоимость</span>
-                    <p class="description">Антикризисное предложение!</p>
+                    <p class="description">В «IQ-центр»  - антикризисное предложение!
+                        Мы специально снизили цены, чтобы возможность получить глубокие знания была у всех, независимо от уровня достатка.</p>
                 </div>
                 <div class="tabItem third">
                     <img src="images/logo.png">
                     <span class="title">Мини-группы</span>
-                    <p class="description">Эффективно и доступно!</p>
+                    <p class="description">Занятия проходят в группах до 6 человек. Согласно многочисленным исследованиям, это наиболее эффективная форма проведения занятий. Она позволяет не только получить знания, но закрепить их при работе в парах.</p>
                 </div>
                 <div class="tabItem fourth">
                     <img src="images/logo.png">
                     <span class="title">Удобное расписание</span>
-                    <p class="description">Составим вместе с Вами!</p>
+                    <p class="description">Сегодня подготовка к занятиям отнимает огромное количество времени у школьников. В «IQ-центр» ценят каждую минуту свои учеников. Мы обязательно составим расписание занятий вместе с вами с учетом ваших пожеланий!</p>
                 </div>
                 <div class="tabItem fifth">
                     <img src="images/logo.png">
                     <span class="title">Пробный урок</span>
-                    <p class="description">Убедись во всем сам!</p>
+                    <p class="description">Всегда важно найти «своего» учителя. Приходите на бесплатный пробный урок и убедитесь сами в профессионализме наших преподавателей!</p>
                 </div>
                 <div class="tabItem sixth">
                     <img src="images/logo.png">
                     <span class="title">Удобство и комфорт</span>
-                    <p class="description">Мы ценим каждого нашего ученика!</p>
+                    <p class="description">Мы ценим удобство каждого нашего ученика, поэтому много внимания уделяем комфортным условиям обучения. Светлые просторные аудитории, оборудованные всем необходимым для результативного обучения – в «IQ-центр» созданы все условия для получения знаний!</p>
                 </div>
             </div>
             <div class="trapezoid"></div>
